@@ -1,0 +1,22 @@
+/* Mobile */
+@media (max-width: 768px) {
+  body {
+    padding-top: 40px;
+  }
+
+  body {
+    margin: 0;
+    background-color: rgba(0, 105, 182, 1);
+    color: white;
+  }
+
+  section {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  section div {
+    border: 2px solid white;
+    margin: 20px 0;
+    box-sizing: border-box;
+  }

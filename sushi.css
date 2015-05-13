@@ -1,0 +1,84 @@
+body {
+  font-size: 62.5%;
+}
+
+img {
+  width: 99%;
+}
+
+.content {
+  max-width: 99%;
+  margin: 0 auto;
+}
+
+.one,
+.two,
+.three  {
+  display: inline-block;
+  color: RGBA(89, 164, 211, 1);
+  width: 31%;
+  font-size: 1.5em;
+  margin: 1%;
+  vertical-align: top;
+
+}
+
+/* Tablet */
+
+@media (max-width: 840px) and (min-width: 501px){
+
+  .content {
+    max-width: 99%;
+    margin:1%;
+
+  }
+
+  .one,
+  .two,
+  .three {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  img {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+  }
+
+  .text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 500px) and (min-width: 0px){
+
+  .content {
+    max-width: 99%;
+    margin:1%;
+
+  }
+
+  .one,
+  .two,
+  .three {
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2%;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+
+/** comment **/ 
